@@ -69,20 +69,83 @@ input[type=submit] {
     width: 100%;
 }
 
+.statistics-style {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.input-style-identity input {
+    border: 3px solid white;
+    text-align: center;
+    background-color: #c1bd7c;
+    color: black;
+    font-size: 1.3em;
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+}
+
+
+.input-style-ability {
+    border: 3px solid white;
+    text-align: center;
+    background-color: #c1bd7c;
+    color: black;
+    font-size: 3em;
+    padding: 5px;
+    width: 70px;
+    height: 100px;
+}
+
+.input-style-statistics {
+    border: 3px solid white;
+    text-align: center;
+    background-color: #c1bd7c;
+    color: black;
+    font-size: 3em;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+.skill-key {
+    margin-left: 45%;
+    margin-right: 25%;
+    margin-top: 20px;
+    text-align: center;
+    border: 3px solid white;
+    background-image: url("../images/index_back.png");
+}
+
+.skill-key h2 {
+    text-shadow: 1px 1px white;
+}
+
 .identity-style {
-    color: blue;
+    color: #44443b;
+    text-shadow: 1px 1px white;
+}
+
+.statistics-text-style {
+    color: #44443b;
+    text-shadow: 1px 1px white;
 }
 
 .ability-style {
-    color: red;
-}
-
-.prof-key {
-    background-color: yellow;
+    color: #44443b;
+    text-shadow: 1px 1px white;
 }
 
 .skill-style {
-    color: green;
+    color: #44443b;
+    text-shadow: 1px 1px white;
+}
+
+.checkbox {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
 }
 
 /* Footer */

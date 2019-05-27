@@ -25,11 +25,11 @@
 
     <div class="content content-style">
         <form action="#">
-            <table class="creator-style">
+            <table class="creator-style input-style-identity">
                 <tr class="identity-style">
                     <td><h2>Character Name</h2></td>
                     <td><h2>Class</h2></td>
-                    <td><h2>Race</h2></td>
+                    <td><h2>Level</h2></td>
                     <td><h2>Player Name</h2></td>
                 </tr>
                 <tr>
@@ -50,12 +50,29 @@
                     <td><input type="text" placeholder=" "></td>
                     <td><input type="text" placeholder=" "></td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td class="prof-key"><h2>Skill Proficiencies Key:</h2></td>
-                    <td class="prof-key"><h2>First Check = Proficient</h2></td>
-                    <td class="prof-key"><h2>Second Check = Double Proficient</h2></td>
+            </table>
+
+            <table class="statistics-style">
+                <tr class="statistics-text-style">
+                    <td><h2>AC</h2></td>
+                    <td><h2>Initiative</h2></td>
+                    <td><h2>Speed</h2></td>
                 </tr>
+                <tr>
+                    <td><input class="input-style-statistics" type="text" placeholder=" "></td>
+                    <td><input class="input-style-statistics" type="text" placeholder=" "></td>
+                    <td><input class="input-style-statistics" type="text" placeholder=" "></td>
+                </tr>
+
+            </table>
+
+            <div class="skill-key">
+                <h2>Skill Proficiencies Key:</h2>
+                <h3>First Check = Proficient</h3>
+                <h3>Second Check = Double Proficient</h3>
+            </div>
+
+            <table class="creator-style">
                 <tr>
                     <td class="ability-style"><h2>Strength</h2></td>
                     <td class="skill-style"><h2>Acrobatics</h2></td>
@@ -64,10 +81,18 @@
 
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder=" "></td>
+                    <td><input class="input-style-ability" type="text" placeholder=" "></td>
                     <td>
-                        <input type="radio" name="prof-acro" value="">
-                        <input type="radio" name="dub-prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
                     </td>
                     
                 </tr>
@@ -79,7 +104,19 @@
                     
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder=" "></td>
+                    <td><input class="input-style-ability" type="text" placeholder=" "></td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
                     
                 </tr>
                 <tr>
@@ -90,7 +127,19 @@
                     
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder=" "></td>
+                    <td><input class="input-style-ability" type="text" placeholder=" "></td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
                     
                 </tr>
                 <tr>
@@ -101,7 +150,19 @@
                     
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder=" "></td>
+                    <td><input class="input-style-ability" type="text" placeholder=" "></td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
                     
                 </tr>
                 <tr>
@@ -112,7 +173,19 @@
                     
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder=" "></td>
+                    <td><input class="input-style-ability" type="text" placeholder=" "></td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
 
                 </tr>
                 <tr>
@@ -123,7 +196,19 @@
                     
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder=" "></td>
+                    <td><input class="input-style-ability" type="text" placeholder=" "></td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
+                    <td>
+                        <input class="checkbox" type="checkbox" name="prof-acro" value="">
+                        <input class="checkbox" type="checkbox" name="dub-prof-acro" value="">
+                    </td>
                     
                 </tr>
                 
@@ -132,7 +217,7 @@
     </div>
 
     <div class="footer grid-div">
-        <a style="text-decoration: none; color: white;" href="../portal/portal.php"><h4>Created By: Connor H | Alex P | Summer 2019</h4></a>
+        <h4>Created By: Connor H | Alex P | Summer 2019</h4>
     </div>
 
 </body>

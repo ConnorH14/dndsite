@@ -13,27 +13,13 @@ h2, h3, h4, p {
 
 /* Header */
 
-.header-left {
-    text-align: center;
-}
+
 
 .header-center {
     text-align: center;
     padding-left: 2px;
     font-family: 'Montaga', serif;
-}
-
-.header-right {
-    text-align: center;
-    padding-right: 40px;
-    font-family: 'Montaga', serif;
-}
-
-.header-style {
-    margin: 0;
-    padding-bottom: 0px;
-    padding-top: 1px;
-    border-bottom: 1px solid white;
+    background-image: url("../images/div-card3.png");
 }
 
 .logo-style {
@@ -41,88 +27,62 @@ h2, h3, h4, p {
     padding-bottom: 30px;
 }
 
-.title-style {
-    color: white;
-    font-size: 2.4em;
-    margin-left: 20px;
-    margin: bottom: 20px;
-}
-
-.signup-style {
-    color: white;
-    text-decoration: none;
-    border: 3px solid white;
-    padding: 5px;
-    background-color: #4e0707;
-    box-shadow: 2px 2px 2px black;
-    border-radius: 10px;
-    font-size: 0.7em;
-}
-
 /* Main Content */
 
 .main-style {
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 3px solid white;
+    padding-left: 20px;
 }
 
-.login-style {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-    text-align: center;
-    
-    background-image: linear-gradient(to right, #e0bcb2, #dfc0c0);
-    border: 5px solid white;
-    border-radius: 10px;
-}
-
-.login-text-style {
-    color: white;
-    text-shadow: 1px 1px black;
-    font-size: 1.3em;
-}
-
-input[type=text], select {
-    display: inline-block;
-    padding: 2px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: 'Stylish', sans-serif;
-    font-size: .6em;
-  }
-
-  input[type=password], select {
-    display: inline-block;
-    padding: 2px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: 'Stylish', sans-serif;
-    font-size: .6em;
-  }
-  
-  input[type=submit] {
-    background-color: #c73434;
+input[type=submit] {
+    background-image: url("../images/div-card3.png");
     padding: 5px;
-    color: white;
-    border: none;
+    color: rgb(255, 255, 255);
+    border: 5px solid #810606;
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Stylish', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px black;
   }
   
   input[type=submit]:hover {
-    background-color: #883610;
+    background-color: #bb4747;
+    border: 5px solid #bb4747;
   }
+
+  .content-style {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.creator-style {
+    width: 75%;
+}
+
+.identity-style {
+    color: blue;
+}
+
+.ability-style {
+    color: red;
+}
+
+.prof-key {
+    background-color: yellow;
+}
+
+.skill-style {
+    color: green;
+}
+
+.checkbox {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
 
 /* Footer */
 
@@ -132,11 +92,11 @@ input[type=text], select {
     width: 100%;
     color: white;
     border-top: 3px solid white;
+    background-image: url("../images/div-card3.png");
 }
 
 /* Grid Layout */
 
   .grid-div {
-    background-image: url("../images/div-card3.png");
     font-size: 1em;
   }
